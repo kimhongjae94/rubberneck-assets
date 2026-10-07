@@ -27,10 +27,26 @@ Sources:
 - MPFB: https://extensions.blender.org/add-ons/mpfb/ (GPL-3.0-or-later, tool only)
 - Blender: https://www.blender.org (GPL, tool only)
 
+## Monsters and mission props (made for this game)
+
+Built entirely by our own Blender scripts in `tools/models/creatures/*.py` (skin-modifier skeletons, procedural
+sculpting, procedurally baked textures) — no third-party meshes or textures. Dedicated to the public domain (CC0 1.0)
+together with the rest of this asset repository.
+
+| Model | File | Body plan · colours |
+|---|---|---|
+| The Magnet | `models/c_magnet.glb` | knuckle-walking iron heap, red horseshoe-magnet head, nails / keys / forks / chains · black iron, rust, red |
+| The Lantern Keeper | `models/c_lantern.glb` | hooded robe, 14 back tentacles, hooked claws, staff with lantern · moss green, amber |
+| The Mass | `models/c_mass.glb` | legless rubbery heap on two huge arms, tall toothed mouth, horns · violet / indigo |
+| The Watcher | `models/c_watcher.glb` | floating orb covered in eyes, 7 tendrils · teal |
+| The Hollow | `models/c_hollow.glb` | walking dead tree, branch antlers, twig fingers, glowing face holes · grey-brown bark |
+| The Spindle (boss) | `models/c_spindle.glb` | small body on eight very long legs, cluster of red eyes · bone white, black |
+| Mission props | `models/c_props.glb` | brass key, candle, music box, glowing fruit, red egg |
+
 ## Animations
 
-None as files. All motion (sitting pose, head following, neighbor behaviour) is code: bones are aimed/rotated at
-runtime. No Mixamo assets are used anywhere.
+None as files. All motion (sitting, walking, the monsters' gaits, tentacles, head following) is code: bones are
+aimed/rotated at runtime. No Mixamo assets are used anywhere.
 
 ## Libraries bundled in the game HTML
 
